@@ -1,0 +1,10 @@
+{
+  "publisher": "github.DevinSanders",
+  "id": "theme.dracula",
+  "name": "Dracula",
+  "version": "1.0.0",
+  "author": "Devin Sanders",
+  "description": "Dracula — high-contrast purple/pink on charcoal — paired with Dracula Alabaster light mode for cohesion.",
+  "entryDll": "DraculaThemePlugin.dll",
+  "isTheme": true
+}

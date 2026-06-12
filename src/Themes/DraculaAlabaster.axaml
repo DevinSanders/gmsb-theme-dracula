@@ -1,0 +1,40 @@
+<!-- Dracula Alabaster — alabaster cream with darkened Dracula accents.
+     A flat theme: one set of colours, no Dark/Light variants. The host
+     applies these regardless of the active Avalonia variant. -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Surfaces — light cream / alabaster progression. -->
+    <SolidColorBrush x:Key="SidebarBackground"      Color="#ECECEC" />
+    <SolidColorBrush x:Key="ContentBackground"      Color="#F7F7F7" />
+    <SolidColorBrush x:Key="PanelBackground1"       Color="#ECECEC" />
+    <SolidColorBrush x:Key="PanelBackground2"       Color="#F7F7F7" />
+    <SolidColorBrush x:Key="PanelBackground3"       Color="#E0E0E0" />
+    <SolidColorBrush x:Key="SubtleBorder"           Color="#D0D0D0" />
+
+    <!-- Accents — darkened Dracula purple/pink. -->
+    <SolidColorBrush x:Key="PrimaryAccent"          Color="#6A1B9A" />
+    <SolidColorBrush x:Key="PrimaryAccentHover"     Color="#7E2BB0" />
+    <SolidColorBrush x:Key="OnPrimaryAccent"        Color="#F7F7F7" />
+    <SolidColorBrush x:Key="SecondaryAccent"        Color="#C2185B" />
+
+    <!-- Text — deep grey body + Dracula's comment hue for muted. -->
+    <SolidColorBrush x:Key="TextPrimary"            Color="#424242" />
+    <SolidColorBrush x:Key="TextSecondary"          Color="#7E7E7E" />
+
+    <!-- Status pairs — darkened ANSI variants of Dracula's accents. -->
+    <SolidColorBrush x:Key="SuccessBackground"      Color="#DCEDD2" />
+    <SolidColorBrush x:Key="SuccessForeground"      Color="#2E7D32" />
+    <SolidColorBrush x:Key="DangerBackground"       Color="#F4D5D5" />
+    <SolidColorBrush x:Key="DangerForeground"       Color="#C62828" />
+    <SolidColorBrush x:Key="InfoBackground"         Color="#D5E8F2" />
+    <SolidColorBrush x:Key="InfoForeground"         Color="#0E9AC8" />
+    <SolidColorBrush x:Key="WarningBackground"      Color="#F5E8C8" />
+    <SolidColorBrush x:Key="WarningForeground"      Color="#A67C00" />
+
+    <!-- Composition keys. -->
+    <SolidColorBrush x:Key="DropZoneHighlight"      Color="#B46A1B9A" />
+    <SolidColorBrush x:Key="WaveformBrush"          Color="#6A1B9A" />
+    <SolidColorBrush x:Key="LoopInheritForeground"  Color="#7E7E7E" />
+    <SolidColorBrush x:Key="LoopForceOnForeground"  Color="#2E7D32" />
+    <SolidColorBrush x:Key="LoopForceOffForeground" Color="#C62828" />
+</ResourceDictionary>

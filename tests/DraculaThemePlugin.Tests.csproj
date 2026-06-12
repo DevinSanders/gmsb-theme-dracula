@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\DraculaThemePlugin.csproj" />
+    <!-- The plugin under test intentionally does NOT ship SoundBoard.PluginApi
+         (the host supplies it at runtime, and src/*.csproj uses
+         ExcludeAssets="runtime" on this same package), so it never lands in
+         the plugin's output. The test process is itself the runtime host, so
+         pull the SDK in here WITHOUT ExcludeAssets so its DLL is copied to
+         the test output. Version pin must match src/DraculaThemePlugin.csproj. -->
+    <PackageReference Include="SoundBoard.PluginApi" Version="1.0.0-beta.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="12.0.4" />
+    <PackageReference Include="Avalonia.Headless.XUnit" Version="12.0.4" />
+    <PackageReference Include="xunit.v3" Version="3.2.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.6.0" />
+    <PackageReference Include="FluentAssertions" Version="7.2.2" />
+  </ItemGroup>
+
+</Project>
