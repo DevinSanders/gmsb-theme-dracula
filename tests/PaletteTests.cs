@@ -14,8 +14,8 @@ namespace DraculaThemePlugin.Tests;
 public class PaletteTests
 {
     // The 25 semantic brush keys every palette must define for the host to
-    // render a fully-styled UI. Mirrors the vocabulary in CLAUDE.md; a gap
-    // here is exactly what the completeness theory below is meant to catch.
+    // render a fully-styled UI. A gap here is exactly what the completeness
+    // theory below is meant to catch.
     private static readonly string[] SemanticKeys =
     {
         "SidebarBackground", "ContentBackground",
