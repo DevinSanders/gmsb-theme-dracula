@@ -11,6 +11,12 @@ The canonical [Dracula](https://draculatheme.com) dark theme — high-contrast p
 
 Each palette is a flat set of colours — one selectable look in the host's theme dropdown (shown as "Dracula: Dracula" and "Dracula: Dracula Alabaster"). There is no Dark/Light variant: the host applies the palette regardless of the active Avalonia variant and infers light/dark Fluent chrome (scrollbars, popups, focus rings) from the background luminance on its own.
 
+## Preview
+
+| Dracula | Dracula Alabaster |
+|---|---|
+| ![Dracula palette — charcoal background with purple/pink accents](screenshots/Dracula.png) | ![Dracula Alabaster palette — alabaster cream background with darker purple/pink accents](screenshots/DraculaAlabaster.png) |
+
 ## Install
 
 Drop the released `.zip` onto Settings → Plugin Manager. Themes activate live — no restart needed. Pick the palette from Settings → Appearance → Theme.
